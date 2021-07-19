@@ -1,0 +1,10 @@
+table {
+    border: 2px solid yellow;
+}
+.negrita {
+    border: 2px solid blue;
+    font-weight: bold;
+}
+td, th {
+    border: 2px solid green;
+}

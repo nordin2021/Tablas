@@ -1,0 +1,32 @@
+* {
+    font-size: medium;
+}
+body {
+    background-image: url(../image/pinguino.jpg);
+    background-size: cover;
+    
+}
+table { 
+    text-align: center;
+    margin: 10%;
+    border-spacing: 0.5;
+    border-right: 5px solid black;
+    border-bottom: 5px solid red;
+    border-left: 5px solid black;
+    border-top: 5px solid red;
+}
+
+.fila0 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    margin: 20%;
+    background-color: indianred;
+    
+}
+th,td {
+    width: 5%;
+    border: 2px solid darkorange;
+}
+td {
+    background-color: yellow;
+}

@@ -1,0 +1,19 @@
+div {
+    background: url(../image/nubes.png) left top no-repeat,
+    url(../image/mario.png) left bottom no-repeat,
+    url(../image/barra.png) left bottom repeat-x;  
+}
+.antes, .posterior {
+    border: 5px solid blue;
+    height: 125px;
+    width: 225px;
+    margin-left: 10px;
+    
+}
+.comenzar {
+    border: 5px solid red;
+    height: 350px;
+    width: 350px;
+    margin-left: 20px;
+    margin: 5%;
+}  

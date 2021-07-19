@@ -1,0 +1,79 @@
+* {
+    background-image: url(../image/ac.jpg)
+    
+}
+.cuadros {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.A,.B,.C,.D,.E,.F,.G,.H,.I,.J,.K,.L {
+    border: 2px solid yellow;
+    text-align: center;
+    width: 230px;
+    height: 230px;
+    margin:30px;
+
+}
+.A {
+    background-image: url(../image/A.jpg);
+}
+.B1 {
+    background-image: url(../image/A.jpg);
+    margin-left: 35px;
+    margin-top: 10px;
+    background-position: center;
+    width: 170px;
+    height: 180px;
+
+}
+.C {
+    background-image: url(../image/A.jpg);
+    background-size: 100%;
+}
+.D {
+    background-image: url(../image/A.jpg);
+    background-position: center;
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.E {
+    background-image: url(../image/B.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.F {
+    background-image: url(../image/B.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75% 75%;
+    background-color: white;
+}
+.G {
+    background-image: url(../image/G.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+.H {
+    background-image: url(../image/H.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 52%;
+}
+.I {
+    background: linear-gradient(to right, yellow, black);
+}
+.J {
+    background: linear-gradient(to top, brown, white);
+}
+.K {
+    background: linear-gradient(to bottom, green, white);
+}
+.L {
+    background: linear-gradient(to top, green, transparent 100%);
+}
